@@ -1,0 +1,30 @@
+.warehouse-map {
+    display: grid;
+    grid-template-columns: repeat(7, 80px); /* 7 columns with 80px width each */
+    grid-template-rows: repeat(7, 80px);    /* 7 rows with 80px height each */
+    gap: 2px;
+  }
+  
+  .grid-button {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  .grid-button.forklift {
+    background-color: #ff5722; /* Highlight forklift position */
+  }
+  
+  .grid-storage {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em; /* Adjust size of storage icon */
+  }
+  

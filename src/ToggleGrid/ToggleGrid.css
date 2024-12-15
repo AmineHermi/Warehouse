@@ -1,0 +1,22 @@
+.toggle-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 50px); /* 7 columns for a 7x7 grid */
+    gap: 2px;
+  }
+  
+  .grid-cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .grid-cell.free {
+    background-color: green; /* Green for free */
+  }
+  
+  .grid-cell.obstructed {
+    background-color: red; /* Red for obstructed */
+  }
+  

@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+.app-container {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+  gap: 20px; /* Space between sections */
+  justify-items: center;
+}
+
+.section {
+  width: 100%; /* Allow sections to take up full column width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  height: 400px; /* Ensures consistent height */
+  box-sizing: border-box;
+  position: relative;
+}
+
+.section-title {
+  position: absolute;
+  top: -50px; /* Move the title higher */
+  left: 15px;
+  background: #f4f4f9;
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.toggle-grid,
+.warehouse-map {
+  width: 100%; /* Equal widths for both */
+}
+
+.detections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  margin-bottom: 15px; /* Space between title and content */
+  text-align: center;
+}
